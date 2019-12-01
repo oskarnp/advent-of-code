@@ -1,9 +1,9 @@
 # Advent of Code
 
 ## 2019
-- [ ] Day 01
+- [x] Day 01
 	- [x] Language: Odin
-	- [ ] Language: Zig
+	- [x] Language: Zig
 
 ## 2018
 ## 2017
