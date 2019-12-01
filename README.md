@@ -2,7 +2,7 @@
 
 ## 2019
 - [ ] Day 01
-	- [ ] Language: Odin
+	- [x] Language: Odin
 	- [ ] Language: Zig
 
 ## 2018
