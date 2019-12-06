@@ -2,7 +2,10 @@
 
 ## 2019
 
-|    |      Odin      |      Zig      |
+[odin]: http://odin-lang.org/
+[zig]: https://ziglang.org/
+
+|    |  [Odin][odin]  |   [Zig][zig]  |
 |----|----------------|---------------|
 | 01 | [✓][19d01odin] | [✓][19d01zig] |
 | 02 | [✓][19d02odin] | [✓][19d02zig] |
