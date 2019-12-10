@@ -10,7 +10,7 @@
 | 01 | [✓][19d01odin] | [✓][19d01zig] |
 | 02 | [✓][19d02odin] | [✓][19d02zig] |
 | 03 | [✓][19d03odin] |               |
-| 04 |                |               |
+| 04 |                | [✓][19d04zig] |
 | 05 |                |               |
 | 06 |                | [✓][19d06zig] |
 | 07 |                |               |
@@ -39,6 +39,7 @@
 [19d08odin]: https://github.com/oskarnp/advent-of-code/blob/master/2019/lang-odin/day08.odin
 [19d01zig]: https://github.com/oskarnp/advent-of-code/blob/master/2019/lang-zig/day01.zig
 [19d02zig]: https://github.com/oskarnp/advent-of-code/blob/master/2019/lang-zig/day02.zig
+[19d04zig]: https://github.com/oskarnp/advent-of-code/blob/master/2019/lang-zig/day04.zig
 [19d06zig]: https://github.com/oskarnp/advent-of-code/blob/master/2019/lang-zig/day06.zig
 [19d08zig]: https://github.com/oskarnp/advent-of-code/blob/master/2019/lang-zig/day08.zig
 
