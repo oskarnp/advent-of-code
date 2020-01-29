@@ -45,6 +45,9 @@
 [19d08zig]: https://github.com/oskarnp/advent-of-code/blob/master/2019/lang-zig/day08.zig
 
 ## 2018
+
 ## 2017
+
 ## 2016
+
 ## 2015
