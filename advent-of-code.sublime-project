@@ -17,6 +17,19 @@
 					"shell_cmd": "$file_base_name.exe"
 				}
 			]
+		},
+		{
+			"file_regex": "(.*)[(]([0-9]+)[:]([0-9]+)*[)](.*)",
+			"name": "Odin",
+			"selector": "source.odin",
+			"shell": true,
+			"variants":
+			[
+				{
+					"name": "Build & Run Single File",
+					"shell_cmd": "C:\\Odin\\odin run $file"
+				}
+			]
 		}
 	],
 	"folders":
@@ -26,6 +39,9 @@
 		},
 		{
 			"path": "C:\\GNAT\\2020\\lib\\gcc\\x86_64-pc-mingw32\\9.3.1\\adainclude"
-		}
+		},
+		{
+			"path": "C:\\Odin\\core"
+		},
 	]
 }

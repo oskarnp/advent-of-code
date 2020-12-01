@@ -4,7 +4,7 @@
 
 |    | [Ada 2012][ada]| [Odin][odin]  |
 |----|----------------|---------------|
-| 01 | [✓][20d01ada]  |               |
+| 01 | [✓][20d01ada]  | [✓][20d01odin] |
 | 02 |                |               |
 | 03 |                |               |
 | 04 |                |               |
@@ -32,6 +32,7 @@
 
 [ada]: https://www.adaic.org/
 [20d01ada]: https://github.com/oskarnp/advent-of-code/blob/master/2020/lang-ada2012/day01.adb
+[20d01odin]: https://github.com/oskarnp/advent-of-code/blob/master/2020/lang-odin/day01.adb
 
 ## 2019
 
