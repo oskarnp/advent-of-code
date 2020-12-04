@@ -7,7 +7,7 @@
 | 01 | [✓][20d01ada]  | [✓][20d01odin] |
 | 02 | [✓][20d02ada]  | [✓][20d02odin] |
 | 03 |                | [✓][20d03odin] |
-| 04 |                |               |
+| 04 |                | [✓][20d04odin] |
 | 05 |                |               |
 | 06 |                |               |
 | 07 |                |               |
@@ -36,6 +36,7 @@
 [20d02ada]: https://github.com/oskarnp/advent-of-code/blob/master/2020/lang-ada2012/day02.adb
 [20d02odin]: https://github.com/oskarnp/advent-of-code/blob/master/2020/lang-odin/day02.odin
 [20d03odin]: https://github.com/oskarnp/advent-of-code/blob/master/2020/lang-odin/day03.odin
+[20d04odin]: https://github.com/oskarnp/advent-of-code/blob/master/2020/lang-odin/day04.odin
 
 ## 2019
 
