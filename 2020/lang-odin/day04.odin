@@ -138,7 +138,6 @@ expect_ident :: proc(ps: ^scanner.Scanner) -> (string, bool) {
 
 parse_input :: proc(lines: []string) -> (result: [dynamic]Passport) {
 	passport : Maybe(Passport);
-	defer delete(lines);
 	for line in lines {
 		line := strings.trim_space(line);
 		if line == "" { // empty line means new passport
