@@ -27,7 +27,9 @@ Passport :: struct {
 }
 
 main :: proc() {
-	passports := parse_input();
+	lines : []string = strings.split(string(#load("../input/day04.txt")), "\n");
+	defer delete(lines);
+	passports := parse_input(lines);
 	defer delete(passports);
 	fmt.println("Part1:", part1(passports[:]));
 	fmt.println("Part2:", part2(passports[:]));
@@ -134,9 +136,8 @@ expect_ident :: proc(ps: ^scanner.Scanner) -> (string, bool) {
 	return "", false;
 }
 
-parse_input :: proc() -> (result: [dynamic]Passport) {
+parse_input :: proc(lines: []string) -> (result: [dynamic]Passport) {
 	passport : Maybe(Passport);
-	lines : []string = strings.split(string(#load("../input/day04.txt")), "\n");
 	defer delete(lines);
 	for line in lines {
 		line := strings.trim_space(line);
