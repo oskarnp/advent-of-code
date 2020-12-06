@@ -2,7 +2,6 @@ package day06
 
 import "core:fmt"
 import "core:strings"
-import "core:container"
 
 input := string(#load("../input/day06.txt"));
 
