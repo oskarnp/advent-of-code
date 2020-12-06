@@ -1,4 +1,4 @@
-package day05
+package day06
 
 import "core:fmt"
 import "core:strings"
