@@ -20,7 +20,7 @@ Program :: struct {
 	pc, acc : int,
 	instrs  : [dynamic] Instr,
 	success : bool,
-	hits    : container.Set,
+	hit     : [1000] b8,
 	patch   : Maybe(int),
 }
 
@@ -61,7 +61,7 @@ reset :: proc(using prg : ^Program) {
 	pc = 0;
 	acc = 0;
 	success = false;
-	container.set_clear(&hits);
+	hit = {};
 	patch = nil;
 }
 
@@ -91,11 +91,12 @@ exec :: proc(using prg: ^Program) {
 
 		ins := &instrs[pc];
 		when DEBUG do fmt.printf("%s %+d acc %d\n", ins.opcode, ins.offset, acc);
-		if container.set_in(hits, u64(ins.addr)) { /* Already seen this instruction */
+
+		if hit[ins.addr] {
 			success = false;
 			return;
 		}
-		container.set_add(&hits, u64(ins.addr));
+		hit[ins.addr] = true;
 
 		opcode := ins.opcode;
 		if patch != nil && ins.addr == patch.? {
