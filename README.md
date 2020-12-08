@@ -11,7 +11,7 @@
 | 05 |                | [✓][20d05odin] |
 | 06 |                | [✓][20d06odin] |
 | 07 |                | [✓][20d07odin] |
-| 08 |                |               |
+| 08 |                | [✓][20d08odin] |
 | 09 |                |               |
 | 10 |                |               |
 | 11 |                |               |
@@ -40,6 +40,7 @@
 [20d05odin]: https://github.com/oskarnp/advent-of-code/blob/master/2020/lang-odin/day05.odin
 [20d06odin]: https://github.com/oskarnp/advent-of-code/blob/master/2020/lang-odin/day06.odin
 [20d07odin]: https://github.com/oskarnp/advent-of-code/blob/master/2020/lang-odin/day07.odin
+[20d08odin]: https://github.com/oskarnp/advent-of-code/blob/master/2020/lang-odin/day08.odin
 
 ## 2019
 
