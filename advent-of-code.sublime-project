@@ -27,7 +27,7 @@
 			[
 				{
 					"name": "Build & Run Single File",
-					"shell_cmd": "C:\\Odin\\odin run $file"
+					"shell_cmd": "W:\\Odin\\odin run $file"
 				}
 			]
 		}
@@ -41,7 +41,10 @@
 			"path": "C:\\GNAT\\2020\\lib\\gcc\\x86_64-pc-mingw32\\9.3.1\\adainclude"
 		},
 		{
-			"path": "C:\\Odin\\core"
+			"path": "W:\\Odin\\core"
 		},
+		{
+			"path": "W:\\Odin\\examples"
+		}
 	]
 }
