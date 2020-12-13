@@ -77,10 +77,6 @@ part2 :: proc() -> int {
 	return manhattan_distance(ship_position, {0,0});
 }
 
-heading_difference_degrees :: proc(a, b: Direction) -> int {
-	return 90 * abs(int(a) - int(b));
-}
-
 direction_vector :: proc(dir: Direction) -> [2]int {
 	switch dir {
 	case .N: return { 0, +1};
