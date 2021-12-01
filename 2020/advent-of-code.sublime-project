@@ -1,0 +1,50 @@
+{
+	"build_systems":
+	[
+		{
+			"file_regex": "^(..[^:]*):([0-9]+):?([0-9]+)?:? (.*)$",
+			"name": "Ada - GNATMAKE",
+			"selector": "source.adb",
+			"shell": true,
+			"variants":
+			[
+				{
+					"name": "Build & Run",
+					"shell_cmd": "C:\\GNAT\\2020\\bin\\gnatmake.exe $file && $file_base_name.exe"
+				},
+				{
+					"name": "Run",
+					"shell_cmd": "$file_base_name.exe"
+				}
+			]
+		},
+		{
+			"file_regex": "(.*)[(]([0-9]+)[:]([0-9]+)*[)](.*)",
+			"name": "Odin",
+			"selector": "source.odin",
+			"shell": true,
+			"variants":
+			[
+				{
+					"name": "Build & Run Single File",
+					"shell_cmd": "W:\\Odin\\odin run $file"
+				}
+			]
+		}
+	],
+	"folders":
+	[
+		{
+			"path": "."
+		},
+		{
+			"path": "C:\\GNAT\\2020\\lib\\gcc\\x86_64-pc-mingw32\\9.3.1\\adainclude"
+		},
+		{
+			"path": "W:\\Odin\\core"
+		},
+		{
+			"path": "W:\\Odin\\examples"
+		}
+	]
+}

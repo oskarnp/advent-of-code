@@ -1,5 +1,13 @@
 # Advent of Code
 
+## 2021
+
+|    |  [Odin][odin]  |
+|----|----------------|
+| 01 | [✓][21d01odin] |
+
+[21d01odin]: https://github.com/oskarnp/advent-of-code/blob/master/2021/lang-odin/01.odin
+
 ## 2020
 
 |    | [Ada 2012][ada]| [Odin][odin]  |
