@@ -11,6 +11,10 @@
 				{
 					"name": "Build & Run Single File",
 					"shell_cmd": "/home/oskar/github/odin-lang/Odin/odin run $file",
+				},
+				{
+					"name": "Test Single File",
+					"shell_cmd": "/home/oskar/github/odin-lang/Odin/odin test $file",
 				}
 			],
 		}

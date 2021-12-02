@@ -5,8 +5,10 @@
 |    |  [Odin][odin]  |
 |----|----------------|
 | 01 | [✓][21d01odin] |
+| 02 | [✓][21d02odin] |
 
 [21d01odin]: https://github.com/oskarnp/advent-of-code/blob/master/2021/lang-odin/01.odin
+[21d02odin]: https://github.com/oskarnp/advent-of-code/blob/master/2021/lang-odin/02.odin
 
 ## 2020
 
