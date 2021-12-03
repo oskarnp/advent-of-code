@@ -1,9 +1,6 @@
 package day03
 
 import "core:fmt"
-import "core:strings"
-import "core:text/scanner"
-import "core:strconv"
 import "core:testing"
 import "util"
 
@@ -23,28 +20,27 @@ example_input := `00100
 `
 
 main :: proc() {
+	report := util.parse_integers_from_string(input=problem_input, base=2)
 	{
-		report := util.parse_integers_from_string(problem_input, 2)
-		result := part1(report, 12)
+		result := part1(slice=report, nbits=12)
 		fmt.println("Part1", result)
 	}
 	{
-		report := util.parse_integers_from_string(problem_input, 2)
-		result := part2(report, 12)
+		result := part2(slice=report, nbits=12)
 		fmt.println("Part2", result)
 	}
 }
 
 @(test)
 test_part1 :: proc(t: ^testing.T) {
-	report := util.parse_integers_from_string(example_input, 2)
-	result := part1(report, 5)
+	report := util.parse_integers_from_string(input=example_input, base=2)
+	result := part1(slice=report, nbits=5)
 	testing.expect_value(t, result, 198)
 }
 @(test)
 test_part2 :: proc(t: ^testing.T) {
-	report := util.parse_integers_from_string(example_input, 2)
-	result := part2(report, 5)
+	report := util.parse_integers_from_string(input=example_input, base=2)
+	result := part2(slice=report, nbits=5)
 	testing.expect_value(t, result, 230)
 }
 
