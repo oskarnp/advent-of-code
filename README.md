@@ -13,6 +13,7 @@
 | 07 | [✓][21d07odin] |
 | 08 | [✓][21d08odin] |
 | 09 | [✓][21d09odin] |
+| 10 | [✓][21d10odin] |
 
 [21d01odin]: https://github.com/oskarnp/advent-of-code/blob/master/2021/lang-odin/01.odin
 [21d02odin]: https://github.com/oskarnp/advent-of-code/blob/master/2021/lang-odin/02.odin
@@ -23,6 +24,7 @@
 [21d07odin]: https://github.com/oskarnp/advent-of-code/blob/master/2021/lang-odin/07.odin
 [21d08odin]: https://github.com/oskarnp/advent-of-code/blob/master/2021/lang-odin/08.odin
 [21d09odin]: https://github.com/oskarnp/advent-of-code/blob/master/2021/lang-odin/09.odin
+[21d10odin]: https://github.com/oskarnp/advent-of-code/blob/master/2021/lang-odin/10.odin
 
 ## 2020
 
